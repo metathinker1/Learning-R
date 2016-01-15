@@ -1,0 +1,21 @@
+---
+title: "Plots_01"
+output: html_document
+---
+
+
+```{r}
+rm(list = ls())
+data01 <- data.frame()
+set.seed(1)
+
+# TODO: Invg
+#data01$var_01 <- sample(1:4, 10, replace=T)
+
+var_01 <- sample(1:4, 10, replace=T)
+var_01
+data01$var_01
+
+
+```
+
